@@ -1,0 +1,159 @@
+.name-our-tarckes {
+  margin-top: 18rem;
+}
+
+.img-icons {
+  display: flex;
+  width: 90%;
+}
+.img-icons span {
+  font-size: 0.6rem;
+  color: rgba(197, 200, 202, 0.952);
+}
+.imag-all,
+.imag-all-all,
+.imag-all-all-all {
+  width: 30%;
+  height: 25vw;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 4px rgb(0, 0, 0, 0.2);
+  margin-bottom: 80px;
+}
+
+#btn-overlay-active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  background-color: rgb(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.imag-all-all img,
+.imag-all-all-all img,
+.imag-all img {
+  width: 90%;
+  height: auto;
+  margin-top: 7px;
+  max-height: 120px;
+}
+.imag-icons-cont {
+  display: flex;
+
+  margin-left: 90px;
+  margin-top: 60px;
+  gap: 30px;
+}
+.titel-corse {
+  text-align: left;
+  margin-left: 6px;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+/* cors */
+.margin-right {
+  margin-right: 0.5rem;
+}
+.nameh1-nabr h1 {
+  font-size: 1.2rem;
+  margin-left: -4rem;
+}
+.icon-nav-bar {
+  margin-left: 5rem;
+  margin-top: -1.2rem;
+  gap: 20px;
+}
+.btn-get-started {
+  width: 5rem;
+  height: auto;
+  text-align: center;
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 1rem;
+  margin-top: -1rem;
+  background: rgb(66, 78, 212);
+  color: white;
+}
+.all-corse {
+  display: flex;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.all-corse .imag-all img {
+  border-radius: 6px;
+}
+
+/* uplod video cosre */
+.box-uplod-corse {
+  position: fixed;
+  top: 40%;
+  right: 10px;
+  transform: translate(-50%, -50%);
+  background-color: rgb(163, 146, 146);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 110;
+}
+.box-uplod-corse input {
+  width: 100%;
+  height: 0.8rem;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.box-uplod-corse label {
+  color: black;
+}
+.box-uplod-corse button {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 13px;
+  background: gold;
+}
+
+@media (max-width: 760px) {
+  .name-our-tarckes {
+    margin-top: 5rem;
+  }
+  .imag-icons-cont {
+    display: block;
+    gap: 10px;
+  }
+  .imag-all,
+  .imag-all-all,
+  .imag-all-all-all {
+    width: 70%;
+    height: 65vw;
+    margin-left: 2rem;
+  }
+  .imag-all img {
+    height: 7rem;
+  }
+  .titel-corse {
+    margin-bottom: 0px;
+    font-size: 0.8rem;
+  }
+  .img-icons span {
+    margin-top: 7px;
+    text-align: end;
+  }
+  /* corse */
+  .nameh1-nabr {
+    width: auto;
+  }
+  .nameh1-nabr h1 {
+    margin: 0;
+  }
+}

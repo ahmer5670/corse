@@ -1,0 +1,42 @@
+#contant {
+  margin-top: 2rem;
+  background: #eaebb8ff;
+  height: 22vw;
+}
+.company {
+  display: flex;
+  gap: 30px;
+}
+.company p {
+  margin-bottom: 30px;
+  width: 11rem;
+  text-align: left;
+}
+.company-blook {
+  width: 18%;
+  margin-left: 6px;
+}
+.company-infromion {
+  width: 20%;
+}
+@media (max-width: 760px) {
+  #contant {
+    height: 350vw;
+  }
+  .company {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .company p {
+    width: 160px;
+    text-align: left;
+  }
+  .company-blook {
+    margin-left: 50px;
+    width: 50%;
+  }
+  .company-infromion {
+    width: 50%;
+  }
+}

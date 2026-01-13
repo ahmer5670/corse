@@ -1,0 +1,37 @@
+.containe {
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+.conten {
+  padding: 25px;
+  background: seashell;
+  width: 20%;
+  height: 40%;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 4px 4px rgb(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.conten :hover {
+  padding: 10px;
+}
+.conten p {
+  margin-bottom: 20px;
+  text-align: left;
+}
+@media (max-width: 760px) {
+  * {
+    overflow-x: clip;
+  }
+  .containe {
+    display: block;
+    margin: 0;
+    margin-top: 2rem;
+  }
+  .conten {
+    width: 70%;
+
+    margin-left: 1.9rem;
+  }
+}

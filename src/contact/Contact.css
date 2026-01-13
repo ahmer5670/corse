@@ -1,0 +1,130 @@
+.contact {
+  background-image: url(WhatsApp-Chat-theme-iPhone-stock-744.webp);
+  height: 40vw;
+}
+.text-input {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.text-input h1 {
+  font-size: 3.3rem;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  text-align: justify;
+}
+.text-input h4 {
+  font-size: 1.4rem;
+  max-width: 65%;
+  text-align: justify;
+  margin-bottom: 60px;
+}
+span {
+  color: chocolate;
+}
+.img-images {
+  position: absolute;
+  right: 20px;
+  top: 120px;
+}
+.img-images img {
+  width: 15.7rem;
+  height: 15.7rem;
+}
+.text-input input {
+  width: 70%;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+  padding-left: 35px;
+}
+.itms-input-searsh {
+  display: flex;
+  align-items: center;
+}
+
+.cont-don {
+  background: rgb(59, 25, 90);
+  margin-top: 60px;
+  width: 90%;
+  display: flex;
+  margin-left: 60px;
+  height: 17vw;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+}
+.cont-don img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 0 30px 30px;
+}
+
+.desblay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.desblay h2 {
+  font-size: 1.4rem;
+  padding: 20px 20px 20px 0;
+  margin-right: 17px;
+  color: white;
+}
+.desblay p {
+  text-align: justify;
+  color: antiquewhite;
+  padding-right: 10px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 760px) {
+  .contact {
+    height: 200vw;
+    overflow: hidden;
+  }
+  .text-input {
+    width: 50%;
+  }
+  .text-input h1 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: left;
+  }
+  .text-input h4 {
+    font-size: 0.8rem;
+    max-width: 100%;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .img-images {
+    position: absolute;
+    top: 90px;
+    right: 0px;
+  }
+  .img-images img {
+    width: 12rem;
+    height: 12rem;
+  }
+  .text-input input {
+    width: 100%;
+    height: 35px;
+  }
+
+  .buttom-icon {
+    display: none;
+  }
+  .cont-don {
+    display: block;
+    height: auto;
+    margin-left: 30px;
+    padding-bottom: 1rem;
+  }
+  .cont-don img {
+    margin-left: 8px;
+  }
+}

@@ -1,0 +1,55 @@
+.container {
+  background-image: url(WhatsApp-Chat-theme-iPhone-stock-744.webp);
+  height: 30vw;
+  margin-bottom: 40px;
+}
+.container-premium {
+  display: flex;
+}
+.imag img {
+  width: 40vh;
+  height: 20vw;
+
+  padding-top: 40px;
+  padding-left: 50px;
+}
+.content {
+  margin-top: 40px;
+  margin-left: 80px;
+  text-align: left;
+}
+
+.text-imag h1 {
+  margin-right: 25px;
+  margin-left: 0;
+  text-align: justify;
+}
+.Courslab {
+  display: flex;
+}
+.Courslab img {
+  width: 8vh;
+  height: 3.2vw;
+  border-radius: 10px;
+  margin-left: 35px;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+@media (max-width: 760px) {
+  .container {
+    height: 160vw;
+  }
+  .container-premium {
+    display: block;
+  }
+  .imag img {
+    width: 35vh;
+    height: 50vw;
+  }
+  .content {
+    margin-left: 0;
+  }
+  .Courslab img {
+    height: 10vw;
+  }
+}
