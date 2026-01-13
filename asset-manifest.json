@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/corse/static/css/main.0fa21845.css",
-    "main.js": "/corse/static/js/main.ce8c0df9.js",
+    "main.js": "/corse/static/js/main.b726030f.js",
     "static/js/453.26acbd8d.chunk.js": "/corse/static/js/453.26acbd8d.chunk.js",
     "static/media/Picsart_25-10-02_23-13-48-291.png": "/corse/static/media/Picsart_25-10-02_23-13-48-291.a7eb91184b541bc0707e.png",
     "static/media/images protfel.jpeg": "/corse/static/media/images protfel.ba8c74a2af90d355129c.jpeg",
@@ -58,11 +58,11 @@
     "static/media/images (12).jpeg": "/corse/static/media/images (12).8682558f399cd466c424.jpeg",
     "index.html": "/corse/index.html",
     "main.0fa21845.css.map": "/corse/static/css/main.0fa21845.css.map",
-    "main.ce8c0df9.js.map": "/corse/static/js/main.ce8c0df9.js.map",
+    "main.b726030f.js.map": "/corse/static/js/main.b726030f.js.map",
     "453.26acbd8d.chunk.js.map": "/corse/static/js/453.26acbd8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fa21845.css",
-    "static/js/main.ce8c0df9.js"
+    "static/js/main.b726030f.js"
   ]
 }
